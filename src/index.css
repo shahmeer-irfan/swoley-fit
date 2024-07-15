@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+:root 
+{
+  font-family: "Poppins", sans-serif;
+}
+
+span{
+  font-family: inherit; /*so that it inherits the parent styles.*/
+  font-weight: inherit;
+}
+
+.blueShadow
+{
+  box-shadow : 3px 3px 0 0 #60a5fa;
+}
+
+.blueShadow:hover
+{
+  transform: translate(-3px,-3px);
+  box-shadow : 6px 6px 0 0 #60a5fa;
+}
